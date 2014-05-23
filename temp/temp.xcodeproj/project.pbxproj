@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F220B67192EEC9200A5452F /* PhoneCommons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCommons.h; sourceTree = "<group>"; };
 		0F9D19CA1923AD91002E6FDF /* temp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = temp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9D19CD1923AD91002E6FDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F9D19CF1923AD91002E6FDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F220B66192EEC2300A5452F /* CommonHelp */ = {
+			isa = PBXGroup;
+			children = (
+				0F220B67192EEC9200A5452F /* PhoneCommons.h */,
+			);
+			path = CommonHelp;
+			sourceTree = "<group>";
+		};
 		0F9D19C11923AD91002E6FDF = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +121,7 @@
 		0F9D19D31923AD91002E6FDF /* temp */ = {
 			isa = PBXGroup;
 			children = (
+				0F220B66192EEC2300A5452F /* CommonHelp */,
 				0F9D19DC1923AD91002E6FDF /* AppDelegate.h */,
 				0F9D19DD1923AD91002E6FDF /* AppDelegate.m */,
 				0F9D19DF1923AD91002E6FDF /* Main.storyboard */,
@@ -454,6 +464,7 @@
 				0F9D19FE1923AD91002E6FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F9D19FF1923AD91002E6FDF /* Build configuration list for PBXNativeTarget "tempTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +473,7 @@
 				0F9D1A011923AD91002E6FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
